@@ -1,0 +1,118 @@
+/* General */
+.custom-form{
+	width: 500px;
+	margin: 50px auto;
+}
+body{
+	background-color: red;
+}
+/* end of General */
+
+/* Start of login page */
+.login-title{
+	background-color: #4b4b4b;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: pink;
+}
+
+/* End of login Page */
+
+
+/* Start of navbar page */
+.navbar-inverse{
+	background-color: #4b4b4b;
+	margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand{
+	color: #fd2e51;
+	padding: 20px 20px;
+	font-size: 25px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: pink;
+	padding: 20px 20px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #EAB543;
+	font-size: 18px;
+}
+/* End of navbar page */
+
+
+/* Start of Memebers page */
+
+.members-title{
+	color: #8c8c43;
+}
+.userType label{
+	margin-left: 5px;
+}
+.custom-table{
+	width: 1200px;
+	margin: 50px auto 0px auto;
+}
+.table > thead > tr > th {
+    background-color: darkorange;
+    font-weight: 900;
+}
+/* End of Memebers page */
+
+/* Start of dashboard page */
+.custom-title{
+	color: #8c8c43;
+}
+.home-stats{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.home-stats .stat{
+	background-color: #f00;
+	color: white;
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.home-stats .st-members{
+	background-color: #3498db;
+}
+.home-stats .st-pending{
+	background-color: #e67e22;
+}
+.home-stats .st-items{
+	background-color: #7f8c8d;
+}
+.home-stats .st-comments{
+	background-color: #2c3e50;
+}
+.home-stats .stat span{
+	display: block;
+	font-size: 50px;
+}
+.home-stats .stat span a{
+	color: white;
+}
+.home-stats .stat span a{
+	text-decoration: none;
+}
+.latest-users li{
+	padding: 5px 5px;
+	overflow: hidden;
+}
+.activate-dash {
+	margin-right: 5px;
+}
+	
+/* End of dashboard page */
+
+/* start of category page */
+.categories .cat h3{
+	margin: 0 0 10px;
+}
+.categories .cat:last-of-type{
+	margin: 0 0 10px;
+}
+
+/* End of category page */
