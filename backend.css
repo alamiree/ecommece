@@ -3,9 +3,9 @@
 	width: 500px;
 	margin: 50px auto;
 }
-body{
+/*body{
 	background-color: red;
-}
+}*/
 /* end of General */
 
 /* Start of login page */
@@ -108,11 +108,58 @@ body{
 /* End of dashboard page */
 
 /* start of category page */
-.categories .cat h3{
+.categoies .panel-body{
+	padding: 0;
+}
+.categoies hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.categoies .cat{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.categoies .cat .hidden-buttons{
+	position: absolute;
+	right: -120px;
+	top: 50px;
+	transition: all .9s;
+}
+.categoies .cat:hover .hidden-buttons{
+	right: 10px;
+}
+.categoies .cat .hidden-buttons a{
+	margin-right: 5px;
+}
+.categoies .cat h3{
 	margin: 0 0 10px;
 }
-.categories .cat:last-of-type{
+.categoies .cat:last-of-type{
 	margin: 0 0 10px;
+}
+.categoies .cat:last-of-type ~ hr{
+	display: none;
+}
+.categoies .cat .visiblity{
+	background-color: #e74c3c;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.categoies .cat .commenting{
+	background-color: #e67e22;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.categoies .cat .ads{
+	background-color: #34495e;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 6px;
 }
 
 /* End of category page */

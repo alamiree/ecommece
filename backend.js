@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$(this).attr('placeholder', placeHolder);
 	})
 	$('.confirm').click(function(){
-		return confirm("Are you sure");
+		console.log("Hi")
 	})
 	
 })
